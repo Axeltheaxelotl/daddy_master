@@ -1,0 +1,352 @@
+2025-11-15 00:31:36 [INFO] Taskmaster logging initialized
+2025-11-15 00:31:36 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 00:31:37 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=36328
+2025-11-15 00:31:38 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=36329
+2025-11-15 00:31:46 [INFO] PROCESS_STARTED | program=webserver uid=3 pid=37248
+2025-11-15 00:31:46 [INFO] PROCESS_REGISTERED | program=counter uid=4 autostart=False
+2025-11-15 00:31:46 [INFO] REGISTRY_INITIALIZED | total_processes=4
+2025-11-15 00:32:08 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 00:32:11 [INFO] CLIENT_COMMAND | cmd=help args=
+2025-11-15 00:32:17 [INFO] CLIENT_COMMAND | cmd=tail args=webserver
+2025-11-15 00:32:21 [INFO] CLIENT_COMMAND | cmd=tail args=webserver
+2025-11-15 00:32:24 [INFO] CLIENT_COMMAND | cmd=ls args=
+2025-11-15 00:32:26 [INFO] CLIENT_COMMAND | cmd=help args=
+2025-11-15 00:32:34 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 00:32:36 [INFO] CLIENT_COMMAND | cmd=start args=webserver
+2025-11-15 00:32:46 [INFO] CLIENT_COMMAND | cmd=restart args=webserver
+2025-11-15 00:34:29 [INFO] SERVER_TERMINATION_REQUEST
+2025-11-15 00:34:29 [INFO] CLIENT_DISCONNECTED
+2025-11-15 00:34:29 [INFO] TASKMASTER_SHUTDOWN
+2025-11-15 00:34:36 [INFO] Taskmaster logging initialized
+2025-11-15 00:34:36 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 00:34:37 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=37576
+2025-11-15 00:34:38 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=37585
+2025-11-15 00:34:40 [INFO] TASKMASTER_SHUTDOWN
+2025-11-15 00:39:37 [INFO] Taskmaster logging initialized
+2025-11-15 00:39:37 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 00:39:38 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=39087
+2025-11-15 00:39:39 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=39096
+2025-11-15 00:39:47 [INFO] PROCESS_STARTED | program=webserver uid=3 pid=39174
+2025-11-15 00:39:47 [INFO] PROCESS_REGISTERED | program=counter uid=4 autostart=False
+2025-11-15 00:39:47 [INFO] REGISTRY_INITIALIZED | total_processes=4
+2025-11-15 00:43:28 [INFO] Taskmaster logging initialized
+2025-11-15 00:43:28 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 00:43:29 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=39716
+2025-11-15 00:43:30 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=39725
+2025-11-15 00:43:32 [INFO] PROCESS_STARTED | program=webserver uid=3 pid=39733
+2025-11-15 00:43:32 [INFO] PROCESS_REGISTERED | program=counter uid=4 autostart=False
+2025-11-15 00:43:32 [INFO] REGISTRY_INITIALIZED | total_processes=4
+2025-11-15 00:44:13 [INFO] CLIENT_COMMAND | cmd=ls args=
+2025-11-15 00:44:14 [INFO] CLIENT_COMMAND | cmd=help args=
+2025-11-15 00:44:17 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 00:44:26 [INFO] CLIENT_COMMAND | cmd=attach args=webserver
+2025-11-15 00:44:36 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 00:44:38 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 00:44:40 [INFO] CLIENT_COMMAND | cmd=attach args=webserver
+2025-11-15 00:46:45 [INFO] CLIENT_COMMAND | cmd=attach args=webserver
+2025-11-15 00:47:04 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:47:04 [INFO] SHUTDOWN_STARTING | total_processes=4
+2025-11-15 00:47:04 [INFO] SHUTDOWN_COMPLETE | stopped_processes=3
+2025-11-15 00:49:39 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:42 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:45 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:45 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:45 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:46 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:47 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:49:48 [INFO] SIGHUP_RECEIVED
+2025-11-15 00:49:48 [INFO] SIGHUP_RECEIVED
+2025-11-15 00:49:48 [INFO] CONFIG_RELOADED | programs=3
+2025-11-15 00:49:48 [INFO] CONFIG_RELOADED | programs=3
+2025-11-15 00:49:48 [INFO] CLIENT_ERROR | error=[Errno 104] Connection reset by peer
+2025-11-15 00:49:48 [ERROR] Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 717, in handle_client
+    await writer.drain()
+  File "/usr/lib64/python3.14/asyncio/streams.py", line 358, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "/usr/lib64/python3.14/asyncio/selector_events.py", line 1009, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2025-11-15 00:49:57 [INFO] Taskmaster logging initialized
+2025-11-15 00:49:57 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 00:49:58 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=40839
+2025-11-15 00:49:59 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=40848
+2025-11-15 00:50:01 [INFO] PROCESS_STARTED | program=webserver uid=3 pid=40856
+2025-11-15 00:50:01 [INFO] PROCESS_REGISTERED | program=counter uid=4 autostart=False
+2025-11-15 00:50:01 [INFO] REGISTRY_INITIALIZED | total_processes=4
+2025-11-15 00:50:05 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 00:50:12 [INFO] CLIENT_COMMAND | cmd=attach args=webserver
+2025-11-15 00:50:30 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:50:30 [INFO] SHUTDOWN_STARTING | total_processes=4
+2025-11-15 00:50:30 [INFO] SHUTDOWN_COMPLETE | stopped_processes=3
+2025-11-15 00:50:40 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:50:40 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:50:40 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:50:40 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:59:02 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=2
+2025-11-15 00:59:04 [INFO] SIGHUP_RECEIVED
+2025-11-15 00:59:04 [INFO] SIGHUP_RECEIVED
+2025-11-15 00:59:04 [INFO] CONFIG_RELOADED | programs=3
+2025-11-15 00:59:06 [INFO] CLIENT_ERROR | error=Connection lost
+2025-11-15 00:59:06 [ERROR] Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=17>
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 728, in handle_client
+    await writer.wait_closed()
+  File "/usr/lib64/python3.14/asyncio/streams.py", line 358, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "/usr/lib64/python3.14/asyncio/selector_events.py", line 1071, in write
+    n = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-15 01:10:36 [INFO] Taskmaster logging initialized
+2025-11-15 01:10:36 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 01:10:37 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=42780
+2025-11-15 01:10:38 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=42792
+2025-11-15 01:10:40 [INFO] PROCESS_STARTED | program=webserver uid=3 pid=42873
+2025-11-15 01:10:40 [INFO] PROCESS_REGISTERED | program=counter uid=4 autostart=False
+2025-11-15 01:10:40 [INFO] REGISTRY_INITIALIZED | total_processes=4
+2025-11-15 01:10:45 [INFO] CLIENT_COMMAND | cmd=help args=
+2025-11-15 01:10:56 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:11:07 [INFO] CLIENT_COMMAND | cmd=shutdown args=sleeper
+2025-11-15 01:11:07 [INFO] SHUTDOWN_STARTING | total_processes=4
+2025-11-15 01:11:07 [INFO] SHUTDOWN_COMPLETE | stopped_processes=3
+2025-11-15 01:11:07 [INFO] SERVER_TERMINATION_REQUEST
+2025-11-15 01:11:07 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:11:17 [INFO] Taskmaster logging initialized
+2025-11-15 01:11:17 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 01:11:18 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=43227
+2025-11-15 01:11:19 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=43240
+2025-11-15 01:11:21 [INFO] PROCESS_STARTED | program=webserver uid=3 pid=43248
+2025-11-15 01:11:21 [INFO] PROCESS_REGISTERED | program=counter uid=4 autostart=False
+2025-11-15 01:11:21 [INFO] REGISTRY_INITIALIZED | total_processes=4
+2025-11-15 01:12:04 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:12:07 [INFO] CLIENT_COMMAND | cmd=help args=
+2025-11-15 01:12:15 [INFO] CLIENT_COMMAND | cmd=stop args=sleeper
+2025-11-15 01:13:16 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:13:23 [INFO] CLIENT_COMMAND | cmd=restart args=sleeper
+2025-11-15 01:13:25 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:13:31 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:13:33 [INFO] CLIENT_COMMAND | cmd=restart args=sleeper
+2025-11-15 01:13:39 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:23:10 [INFO] SIGHUP_RECEIVED
+2025-11-15 01:23:10 [INFO] SIGHUP_RECEIVED
+2025-11-15 01:23:10 [INFO] CONFIG_RELOADED | programs=3
+2025-11-15 01:23:10 [INFO] CONFIG_RELOADED | programs=3
+2025-11-15 01:23:10 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:23:11 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<ProcessInstance._monitor_process() done, defined at /home/smasse/local_proj/taskmaster/taskmasterd.py:234> exception=OSError(5, 'Input/output error')>
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 145, in start
+    print(f"[{self.uid}] Starting {self.get_display_name()} (attempt {self.retries}/{self.config['startretries']})")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 249, in _monitor_process
+    await self._handle_unexpected_exit(returncode)
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 275, in _handle_unexpected_exit
+    elif autorestart == 'never':
+        ^^^^^^^^^^^^^^^^^^
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 192, in start
+    print(f"[{self.uid}] Error starting {self.get_display_name()}: {e}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 5] Input/output error
+2025-11-15 01:23:11 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<ProcessInstance._monitor_process() done, defined at /home/smasse/local_proj/taskmaster/taskmasterd.py:234> exception=OSError(5, 'Input/output error')>
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 145, in start
+    print(f"[{self.uid}] Starting {self.get_display_name()} (attempt {self.retries}/{self.config['startretries']})")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 249, in _monitor_process
+    await self._handle_unexpected_exit(returncode)
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 275, in _handle_unexpected_exit
+    elif autorestart == 'never':
+        ^^^^^^^^^^^^^^^^^^
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 192, in start
+    print(f"[{self.uid}] Error starting {self.get_display_name()}: {e}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 5] Input/output error
+2025-11-15 01:23:11 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<ProcessInstance._monitor_process() done, defined at /home/smasse/local_proj/taskmaster/taskmasterd.py:234> exception=OSError(5, 'Input/output error')>
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 145, in start
+    print(f"[{self.uid}] Starting {self.get_display_name()} (attempt {self.retries}/{self.config['startretries']})")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 249, in _monitor_process
+    await self._handle_unexpected_exit(returncode)
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 275, in _handle_unexpected_exit
+    elif autorestart == 'never':
+        ^^^^^^^^^^^^^^^^^^
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 192, in start
+    print(f"[{self.uid}] Error starting {self.get_display_name()}: {e}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 5] Input/output error
+2025-11-15 01:23:28 [INFO] Taskmaster logging initialized
+2025-11-15 01:23:28 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 01:23:29 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=45748
+2025-11-15 01:23:30 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=45752
+2025-11-15 01:23:32 [INFO] PROCESS_STARTED | program=webserver uid=3 pid=45762
+2025-11-15 01:23:32 [INFO] PROCESS_REGISTERED | program=counter uid=4 autostart=False
+2025-11-15 01:23:32 [INFO] REGISTRY_INITIALIZED | total_processes=4
+2025-11-15 01:23:35 [INFO] CLIENT_COMMAND | cmd=stop args=sleeper
+2025-11-15 01:23:35 [INFO] CLIENT_ERROR | error=[Errno 5] Input/output error
+2025-11-15 01:23:35 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:23:40 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:23:43 [INFO] CLIENT_COMMAND | cmd=help args=
+2025-11-15 01:23:50 [INFO] CLIENT_COMMAND | cmd=stop args=sleeper
+2025-11-15 01:24:01 [INFO] CLIENT_COMMAND | cmd=start args=sleeper
+2025-11-15 01:24:07 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:24:16 [INFO] CLIENT_COMMAND | cmd=attach args=speeler
+2025-11-15 01:24:21 [INFO] CLIENT_COMMAND | cmd= args=
+2025-11-15 01:24:24 [INFO] CLIENT_COMMAND | cmd=attach args=sleeper
+2025-11-15 01:25:14 [INFO] CLIENT_COMMAND | cmd=ls args=
+2025-11-15 01:25:17 [INFO] CLIENT_COMMAND | cmd=help args=
+2025-11-15 01:25:25 [INFO] CLIENT_COMMAND | cmd=reload args=
+2025-11-15 01:25:25 [INFO] PROGRAM_CHANGED | program=sleeper
+2025-11-15 01:25:30 [INFO] PROCESS_STARTED | program=sleeper:0 uid=5 pid=46231
+2025-11-15 01:25:35 [INFO] PROCESS_STARTED | program=sleeper:1 uid=6 pid=46267
+2025-11-15 01:25:35 [INFO] CONFIG_RELOADED | programs=3
+2025-11-15 01:25:56 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:25:59 [INFO] CLIENT_COMMAND | cmd=help args=
+2025-11-15 01:27:17 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:28:27 [INFO] Taskmaster logging initialized
+2025-11-15 01:28:27 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 01:28:27 [INFO] CONFIG_LOAD_FAILED
+2025-11-15 01:30:07 [INFO] Taskmaster logging initialized
+2025-11-15 01:30:07 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 01:30:08 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=46513
+2025-11-15 01:30:09 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=46542
+2025-11-15 01:30:11 [INFO] PROCESS_STARTED | program=webserver uid=3 pid=46571
+2025-11-15 01:30:11 [INFO] PROCESS_REGISTERED | program=counter uid=4 autostart=False
+2025-11-15 01:30:11 [INFO] REGISTRY_INITIALIZED | total_processes=4
+2025-11-15 01:32:08 [INFO] Taskmaster logging initialized
+2025-11-15 01:32:08 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 01:32:09 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=46905
+2025-11-15 01:32:10 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=46922
+2025-11-15 01:32:18 [INFO] PROCESS_STARTED | program=webserver uid=3 pid=47075
+2025-11-15 01:32:18 [INFO] PROCESS_REGISTERED | program=counter uid=4 autostart=False
+2025-11-15 01:32:18 [INFO] REGISTRY_INITIALIZED | total_processes=4
+2025-11-15 01:32:27 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:32:41 [INFO] SIGHUP_RECEIVED
+2025-11-15 01:32:41 [INFO] CONFIG_RELOADED | programs=3
+2025-11-15 01:32:42 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<ProcessInstance._monitor_process() done, defined at /home/smasse/local_proj/taskmaster/taskmasterd.py:241> exception=OSError(5, 'Input/output error')>
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 152, in start
+    print(f"[{self.uid}] Starting {self.get_display_name()} (attempt {self.retries}/{self.config['startretries']})")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 256, in _monitor_process
+    await self._handle_unexpected_exit(returncode)
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 288, in _handle_unexpected_exit
+    await self.start()
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 199, in start
+    print(f"[{self.uid}] Error starting {self.get_display_name()}: {e}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 5] Input/output error
+2025-11-15 01:32:42 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<ProcessInstance._monitor_process() done, defined at /home/smasse/local_proj/taskmaster/taskmasterd.py:241> exception=OSError(5, 'Input/output error')>
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 152, in start
+    print(f"[{self.uid}] Starting {self.get_display_name()} (attempt {self.retries}/{self.config['startretries']})")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 256, in _monitor_process
+    await self._handle_unexpected_exit(returncode)
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 288, in _handle_unexpected_exit
+    await self.start()
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 199, in start
+    print(f"[{self.uid}] Error starting {self.get_display_name()}: {e}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 5] Input/output error
+2025-11-15 01:36:59 [INFO] Taskmaster logging initialized
+2025-11-15 01:36:59 [INFO] TASKMASTER_STARTING | daemon_mode=False
+2025-11-15 01:37:00 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=47734
+2025-11-15 01:37:01 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=47752
+2025-11-15 01:37:07 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:37:07 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:37:07 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:37:09 [INFO] PROCESS_STARTED | program=webserver uid=3 pid=47915
+2025-11-15 01:37:09 [INFO] PROCESS_REGISTERED | program=counter uid=4 autostart=False
+2025-11-15 01:37:09 [INFO] REGISTRY_INITIALIZED | total_processes=4
+2025-11-15 01:38:13 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:38:13 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:38:13 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:38:26 [INFO] CLIENT_COMMAND | cmd=stop args=sleeper
+2025-11-15 01:38:26 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:38:27 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:38:29 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:38:29 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:38:29 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:38:35 [INFO] CLIENT_COMMAND | cmd=start args=counter
+2025-11-15 01:38:35 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:38:36 [INFO] CLIENT_ERROR | error=Connection lost
+2025-11-15 01:38:36 [ERROR] Unhandled exception in client_connected_cb
+transport: <_SelectorSocketTransport closed fd=8>
+Traceback (most recent call last):
+  File "/home/smasse/local_proj/taskmaster/taskmasterd.py", line 854, in handle_client
+    await writer.wait_closed()
+  File "/usr/lib64/python3.14/asyncio/streams.py", line 358, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "/usr/lib64/python3.14/asyncio/selector_events.py", line 1071, in write
+    n = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-15 01:38:38 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:38:38 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:38:38 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:39:31 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:39:31 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:39:31 [INFO] CLIENT_DISCONNECTED
+2025-11-15 01:40:06 [INFO] CLIENT_COMMAND | cmd=attach args=counter
+2025-11-15 01:40:17 [INFO] CLIENT_COMMAND | cmd=ls args=
+2025-11-15 01:40:21 [INFO] CLIENT_COMMAND | cmd=help args=
+2025-11-15 01:40:31 [INFO] CLIENT_COMMAND | cmd=attach args=counter
+2025-11-15 01:40:34 [INFO] CLIENT_COMMAND | cmd=l args=
+2025-11-15 01:41:11 [INFO] CLIENT_COMMAND | cmd=reload args=
+2025-11-15 01:41:11 [INFO] PROGRAM_CHANGED | program=webserver
+2025-11-15 01:41:13 [INFO] PROCESS_STARTED | program=webserver uid=3 pid=49947
+2025-11-15 01:41:13 [INFO] CONFIG_RELOADED | programs=3
+2025-11-15 01:41:19 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:41:36 [INFO] CLIENT_COMMAND | cmd=reload args=
+2025-11-15 01:41:36 [INFO] PROGRAM_CHANGED | program=sleeper
+2025-11-15 01:41:37 [INFO] PROCESS_STARTED | program=sleeper:0 uid=1 pid=50064
+2025-11-15 01:41:38 [INFO] PROCESS_STARTED | program=sleeper:1 uid=2 pid=50067
+2025-11-15 01:41:38 [INFO] CONFIG_RELOADED | programs=3
+2025-11-15 01:41:42 [INFO] CLIENT_COMMAND | cmd=status args=
+2025-11-15 01:58:44 [INFO] CLIENT_DISCONNECTED
+2025-11-15 04:33:38 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=15
+2025-11-15 04:33:38 [INFO] SHUTDOWN_SIGNAL_RECEIVED | signal=15

@@ -1,0 +1,52 @@
+# Taskmaster Configuration File
+
+programs:
+  # Example: active counter process
+  sleeper:
+    command: sleep 1000
+    numprocs: 2
+    autostart: true
+    autorestart: always
+    exitcodes: [0]
+    starttime: 1
+    startretries: 3
+    stopsignal: TERM
+    stoptime: 5
+    stdout: /tmp/sleeper.log
+    stderr: /tmp/sleeper_err.log
+    env:
+      MY_VAR: test_value
+    workingdir: /tmp
+    umask: "022"
+
+  # Example: Python HTTP server
+  webserver:
+    command: /usr/bin/python3 -m http.server 8081
+    numprocs: 1
+    autostart: true
+    autorestart: unexpected
+    exitcodes: [0]
+    starttime: 2
+    startretries: 3
+    stopsignal: INT
+    stoptime: 10
+    stdout: /tmp/webserver.log
+    stderr: /tmp/webserver_err.log
+    workingdir: /tmp
+    umask: "022"
+
+  # Example: Simple bash script loop  
+  counter:
+    command: "/bin/bash -c \"c=0; while true; do echo 'Counter at: $c'; c=$((c+1)); sleep 2; done\""
+    numprocs: 1
+    autostart: false
+    autorestart: never
+    exitcodes: [0, 1]
+    starttime: 1
+    startretries: 1
+    stopsignal: TERM
+    stoptime: 5
+    stdout: /tmp/counter.log
+    stderr: /tmp/counter_err.log
+    workingdir: /tmp
+    umask: "027"
