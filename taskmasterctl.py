@@ -192,7 +192,6 @@ if __name__ == "__main__":
             else:
                 print("Usage: attach <program>")
         else:
-            # Regular command
             response, success = send_command(command, sock)
             print(response)
             if not success:
@@ -200,5 +199,4 @@ if __name__ == "__main__":
         
         sock.close()
     else:
-        # Interactive mode
         main()

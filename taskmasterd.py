@@ -11,6 +11,7 @@ from enum import Enum
 
 SOCKET_PATH = "/tmp/simple.sock"
 LOG_FILE = os.path.join(os.path.dirname(__file__), "taskmaster.log")
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.yaml")
 
 def setup_logging():
     logging.basicConfig(
@@ -410,14 +411,11 @@ def format_status_table() -> str:
     for col in headers:
         widths[col] = max(len(headers[col]), max(len(row[col]) for row in rows) if rows else 0)
     
-    # Build table
     lines = []
-    # Header
     header = " | ".join(headers[col].ljust(widths[col]) for col in ['uid', 'name', 'state', 'pid', 'uptime', 'retries'])
     lines.append(header)
     lines.append("-" * len(header))
     
-    # Rows
     for row in rows:
         line = " | ".join(row[col].ljust(widths[col]) for col in ['uid', 'name', 'state', 'pid', 'uptime', 'retries'])
         lines.append(line)
@@ -513,7 +511,6 @@ async def shutdown_all_processes():
             stop_tasks.append(proc.stop())
     
     if stop_tasks:
-        # Wait for all processes to stop
         await asyncio.gather(*stop_tasks, return_exceptions=True)
     
     log_event("SHUTDOWN_COMPLETE", stopped_processes=len(stop_tasks))
@@ -566,7 +563,7 @@ async def apply_config_diff(new_programs: dict):
             else:
                 log_event("PROCESS_REGISTERED", program=proc.get_display_name(), uid=proc.uid, autostart=False)
 
-    # Changed programs (simple strategy: restart all instances if any field differs)
+    # Changed programs (restart all instances if any field differs)
     for name in possibly_changed:
         old_cfg = current_program_configs[name]
         new_cfg = new_programs[name]
@@ -875,10 +872,13 @@ async def server_loop(config):
             if os.path.exists(SOCKET_PATH):
                 os.unlink(SOCKET_PATH)
 
-def config_loader():
-    config_path = os.path.join(os.path.dirname(__file__), 'config.yaml')
+def config_loader(config_path=None):
+    global CONFIG_PATH
+    if config_path:
+        CONFIG_PATH = config_path
+    
     try:
-        config = benedict.load_yaml_file(config_path)
+        config = benedict.load_yaml_file(CONFIG_PATH)
         return config
     except Exception as e:
         print(f"Error loading configuration: {e}")
@@ -951,7 +951,7 @@ async def main():
     setup_logging()
     log_event("TASKMASTER_STARTING", daemon_mode=args.daemon)
     
-    config = config_loader()
+    config = config_loader(args.config)
     if config is None:
         if not args.daemon:
             print("Failed to load configuration. Exiting.")
